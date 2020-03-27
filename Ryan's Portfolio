@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US" style="background-color:beige">
 <head>
-    <title>All About Ryan</title>
-    <meta charset="utf-8">
+<title>All About Ryan</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
 </head>
 <style>
     div.a{
@@ -17,13 +18,13 @@
     
     <div class="a">
         
-        <h1 style="border:2px solid black" >Ryan Hoang's Portfolio</h1>
+        <h1 class="info-h1">Ryan Hoang's Portfolio</h1>
     
     </div>
     
     <div class="b">
         
-        <p>I am a second-year currently attending California State University Long Beach in pursuing my Bachelor Of Science for Computer Science. I can speak two languages Vietnamese, and English. I am an only child and am the first in my family to go to college. In my free time, I like to play football and basketball. I like cooking Italian food such as spaghetti and pasta. On the weekends I like to go to the beach and play basketball. I have always been an achiever either in academics or professional life or sports or any other field in my life. I believe in success through hard work and dedication. I believed that for you to achieve something you must work hard for it. I enjoy life to the fullest and love humor. I am a progressive thinker who likes to take on challenging problems. I have a passion for programming and have been fascinated by computers since I was a little kid. I like learning new programming languages and my favorite is Java. I knew that I wanted to be a software engineer since I was a little kid. My hobbies are that I like to go on hikes, to the beach, bike rides and code. I am currently a member of the ACM - Association for Computing Machinery. Some of my goals are that I hope to get an internship by next summer and a long term goal is to be able to get a job in a field out of college </p>
+        <p id="name-p">I am a second-year currently attending California State University Long Beach in pursuing my Bachelor Of Science for Computer Science. I can speak two languages Vietnamese, and English. I am an only child and am the first in my family to go to college. In my free time, I like to play football and basketball. I like cooking Italian food such as spaghetti and pasta. On the weekends I like to go to the beach and play basketball. I have always been an achiever either in academics or professional life or sports or any other field in my life. I believe in success through hard work and dedication. I believed that for you to achieve something you must work hard for it. I enjoy life to the fullest and love humor. I am a progressive thinker who likes to take on challenging problems. I have a passion for programming and have been fascinated by computers since I was a little kid. I like learning new programming languages and my favorite is Java. I knew that I wanted to be a software engineer since I was a little kid. My hobbies are that I like to go on hikes, to the beach, bike rides and code. I am currently a member of the ACM - Association for Computing Machinery. Some of my goals are that I hope to get an internship by next summer and a long term goal is to be able to get a job in a field out of college </p>
         
     </div>
     
@@ -31,6 +32,7 @@
     <h2 style ="font-style: italic"><ins>Fun fact about me:</ins></h2>
     
         <ul>
+            <li style="color:darkcyan">I can hold my breath for 4 minutes under water!!!</li>
             <li style="color:darkcyan">I got on the Presdient's list 3 semester in a row</li>
             <li style="color:darkcyan">I played 4 years of high school football</li>
             <li style="color:darkcyan">I love to stay active</li> 
@@ -59,15 +61,15 @@
     <h2 style="font-style: italic"><ins>My Favorite websites:</ins></h2>
         <ol>
             
-            <li><p><a href="https://www.linkedin.com/in/ryan-hoang-66b5b71a1/">Linkedin Account</a>: This is my Professional account where recruiters can find me</p></li>
+            <li><p><a class="link" href="https://www.linkedin.com/in/ryan-hoang-66b5b71a1/">Linkedin Account</a>: This is my Professional account where recruiters can find me</p></li>
             
-            <li><p><a href="https://github.com/ryanhoang15">Github</a>: This where I upload my coding projects and lab to</p></li>
+            <li><p><a class="link" href="https://github.com/ryanhoang15">Github</a>: This where I upload my coding projects and lab to</p></li>
             
-            <li><p><a href="https://www.udemy.com/">Udemy</a>: This is my third favorite website beacuse I use this website to get a better understanding of the material taught at school and to get more practice</p></li>
+            <li><p><a class="link" href="https://www.udemy.com/">Udemy</a>: This is my third favorite website beacuse I use this website to get a better understanding of the material taught at school and to get more practice</p></li>
             
-            <li><p><a href="http://google.com">Google</a>: This is my fourth favorite website beacuse I use this to look up methods and functions when I am struggling with writing my code</p></li>
+            <li><p><a class="link" href="http://google.com">Google</a>: This is my fourth favorite website beacuse I use this to look up methods and functions when I am struggling with writing my code</p></li>
             
         </ol>
-    
+
 </body>
 </html>
