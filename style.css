@@ -1,0 +1,88 @@
+div h1{
+  color: navy;
+  font-style: italic;
+}
+
+.info-h1{
+    color: navy;
+    font-style: italic;
+    border:2px solid black;
+    border-bottom-color: red;
+    border-top-color: green;
+    border-left-color: deepskyblue;
+    padding: 15px;
+    background-color: orange;
+    background-clip: border-box; 
+    animation-name: title;
+    animation-duration: 5s;
+}
+
+@keyframes title {
+  from {background-color: orange;}
+  to {background-color: yellow;}
+}
+
+#name-p{
+    border: 10px dotted black;
+    border-radius: 25px;
+    padding: 20px;
+    align-content: center;
+    font-style: oblique;
+    background-color: blanchedalmond;
+    animation-name: paragraph;
+    animation-duration: 5s;
+}
+
+@keyframes paragraph {
+  from {background-color: blanchedalmond;}
+  to {background-color: lightseagreen;}
+}
+
+h2{
+    font-family: cursive;
+    border-style: solid;
+    border-bottom-color: coral;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    text-align: center;
+    color: forestgreen;
+    animation-name: titles;
+    animation-duration: 5s;
+}
+
+
+@keyframes titles {
+  from {color: forestgreen;}
+  to {color: firebrick;}
+}
+
+
+h2::first-letter{
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+ul::first-line{
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+
+ul{
+    color:darkcyan;
+    font-family: cursive;
+    font-size: 20px;
+    border-style: double;
+}
+
+ol{
+    outline-style: solid;
+    outline-color: darkred;
+    font-style:italic;
+    font-size: 20px; 
+}
+
+.link{
+    color: deepskyblue;
+}
+
+
