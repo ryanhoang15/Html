@@ -4,7 +4,6 @@
 <title>All About Ryan</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
-</head>
 <style>
     div.a{
         text-indent: 480px;
@@ -13,6 +12,7 @@
         text-indent: 30px;
     }
 </style>
+</head>
         
 <body>
     
